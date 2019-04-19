@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-
 # Journalists Killed between 1992-2019
-=======
+
 Journalists Killed between 1992-2019
->>>>>>> 9c390bbe5158bd9254e22c3adcc12c7005f18323
 
 ##### OverView: 
 The Committee to Protect Journalists maintains a database of journalists who’ve been killed for reasons related to their work. The database goes back to 1992 and contains more than 1,300 entries, with details about the journalists, the circumstances of their deaths, and whether perpetrators have been convicted.
