@@ -10,5 +10,6 @@ The Committee to Protect Journalists maintains a database of journalists who’v
 
 ##### References:
 [Committee to Protect Journalists](https://cpj.org/data/killed?status=Killed&motiveConfirmed%5B%5D=Confirmed&type%5B%5D=Journalist&startyear=1992&endyear=2019&group_by=year)
+
 [Map Box](https://www.mapbox.com/)
 
