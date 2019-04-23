@@ -4,8 +4,9 @@
 The Committee to Protect Journalists maintains a database of journalists who’ve been killed for reasons related to their work. The database goes back to 1992 and contains more than 1,300 entries, with details about the journalists, the circumstances of their deaths, and whether perpetrators have been convicted.
 
 
+##### Objective:
 
-
+The objective of this project is to map the journalist 
 
 
 ##### References:
@@ -13,3 +14,5 @@ The Committee to Protect Journalists maintains a database of journalists who’v
 
 [Map Box](https://www.mapbox.com/)
 
+##### Resources:
+[Map Box Tutorial ](https://git.generalassemb.ly/sei-nyc-jeopardy/react-mapbox-geoquakes)
