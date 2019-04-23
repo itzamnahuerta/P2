@@ -1,18 +1,27 @@
-# Journalists Killed between 1992-2019
+#   Charity Navigator
 
 ##### OverView: 
-The Committee to Protect Journalists maintains a database of journalists who’ve been killed for reasons related to their work. The database goes back to 1992 and contains more than 1,300 entries, with details about the journalists, the circumstances of their deaths, and whether perpetrators have been convicted.
-
+Founded in 2001, Charity Navigator has become the nation's largest and most-utilized evaluator of charities. In their quest to help donors, their team of professional analysts has examined tens of thousands of non-profit financial documents. They have used this knowledge to develop an unbiased, objective, numbers-based rating system to assess over 9,000 of America's best-known and some lesser known, but worthy, charities.
 
 ##### Objective:
 
-The objective of this project is to map the journalist 
+The objective of this project is to map organizations focused on aiding migrants/refugees/asylum seekers coming to US borders.
 
 
 ##### References:
-[Committee to Protect Journalists](https://cpj.org/data/killed?status=Killed&motiveConfirmed%5B%5D=Confirmed&type%5B%5D=Journalist&startyear=1992&endyear=2019&group_by=year)
+[Charity Navigtor API](https://charity.3scale.net/)
 
 [Map Box](https://www.mapbox.com/)
 
 ##### Resources:
 [Map Box Tutorial ](https://git.generalassemb.ly/sei-nyc-jeopardy/react-mapbox-geoquakes)
+
+
+##### Further Readings:
+[Freedom For Immigrants](https://www.freedomforimmigrants.org/)
+
+[Missing Migrants](https://missingmigrants.iom.int/)
+
+[Humane Borders Fronteras Compasivas](https://humaneborders.org/migrant-death-mapping/)
+
+[Adonde Van los Desaparecidos](https://adondevanlosdesaparecidos.org/)
