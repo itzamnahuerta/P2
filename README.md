@@ -16,6 +16,8 @@ The objective of this project is to map organizations focused on aiding migrants
 ##### Resources:
 [Map Box Tutorial ](https://git.generalassemb.ly/sei-nyc-jeopardy/react-mapbox-geoquakes)
 
+[mapbox sdk-js package](https://github.com/mapbox/mapbox-sdk-js)
+
 
 ##### Further Readings:
 [Freedom For Immigrants](https://www.freedomforimmigrants.org/)
@@ -25,3 +27,5 @@ The objective of this project is to map organizations focused on aiding migrants
 [Humane Borders Fronteras Compasivas](https://humaneborders.org/migrant-death-mapping/)
 
 [Adonde Van los Desaparecidos](https://adondevanlosdesaparecidos.org/)
+
+[Trac Immigration](https://trac.syr.edu/immigration/)

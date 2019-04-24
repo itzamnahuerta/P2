@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import axios from 'axios'
-
-
-
+import Map from './component/Map/Map'
 
 
 
@@ -12,8 +10,9 @@ class App extends Component {
     super(props)
 
     this.state={
-      data:[]
+      charities:[]
     }
+    this.fetchCharityNav = this.fetchCharityNav.bind(this)
   }
   
   componentDidMount() {
@@ -22,24 +21,25 @@ class App extends Component {
   
   fetchCharityNav = () => {
     const app_key = process.env.REACT_APP_CHARITYNAV_KEY
-    console.log('my key',app_key)
     const app_id = 'd2654c25'
-
-
-    const url = `https://api.data.charitynavigator.org/v2/Organizations?app_id=${app_id}&app_key=${app_key}&search=immigration
-    `
+    const url = `https://api.data.charitynavigator.org/v2/Organizations?app_id=${app_id}&app_key=${app_key}&search=immigration`
 
     axios.get(url)
     .then(response => {
-      console.log(response.data)
-      return response
+
+      this.setState({
+        charities: response.data
+      })
     })
   }
 
   render() {
+    // console.log('article example from app js' , this.state.charities[0])
     return (
       <div>
-        <h1> my app </h1>
+        <h1> this is a hate free zone </h1>
+        <Map charities={this.state.charities} />
+
       </div>
     )
   }
