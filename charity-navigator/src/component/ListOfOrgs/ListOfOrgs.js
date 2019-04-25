@@ -14,7 +14,7 @@ class ListOfOrgs extends Component {
 
 
   render() {
-      console.log(this.props.charities)
+    //   console.log(this.props.charities)
     return (
 
       <div className='orgs-list'>

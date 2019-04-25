@@ -36,7 +36,7 @@ class App extends Component {
     // console.log('article example from app js' , this.state.charities[0])
     return (
       <div> 
-        <h1> info</h1>
+        <header> <span> FOR MIGRANTS. </span> </header> 
         <div className="flexcontainer">
           <Map className='mapContainer' component={Map} charities={this.state.charities} />
           <ListOfOrgs className='orgContainer' charities={this.state.charities} />

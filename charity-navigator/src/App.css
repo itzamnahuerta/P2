@@ -1,11 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:900');
 
+*{
+  cursor: url(./media/cursor.png), crosshair;
+}
+
+header{
+  display: absolute;
+  height: 80px;
+  border-bottom: 2px solid  #823f12;
+
+}
+span{
+  font-weight: 100%;
+  position: absolute;
+  left: 20px;
+  top: 3%;
+}
+
 body{
   /* grey #b6b6b6; */
   /* #e8d5c3   */
   background-color: #c19f89;
-  color: #61615e;
+  color: #3f5f6a;
   font-family: 'Lato', sans-serif;
 
 }
@@ -28,5 +45,9 @@ body{
   background-color: #bfa592;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  position: absolute;
+  top: 30%;
+  left: 8%;
 
 }

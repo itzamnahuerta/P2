@@ -4,11 +4,14 @@
 .orgs-list{
     font-family: 'Lato', sans-serif;
     border: 5px solid #bfa592;
-    width: 500px;
-    height: 620px;
+    max-width: 500px;
+    max-height: 620px;
+    width: auto;
+    height: auto;
     overflow: scroll;
 
 }
+
 
 a{
     display:flex;
