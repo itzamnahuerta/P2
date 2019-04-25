@@ -10,7 +10,7 @@ const pinStyle = {
   stroke: 'none'
 };
 
-class JournalistPin extends PureComponent {
+class CharityPin extends PureComponent {
 
   render() {
   
@@ -26,4 +26,5 @@ class JournalistPin extends PureComponent {
   }
 }
 
-export default JournalistPin;
+export default CharityPin;
+

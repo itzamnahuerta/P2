@@ -3,8 +3,9 @@
 
 body{
   /* grey #b6b6b6; */
-  background-color:#e8d5c3 ;
-  color: black;
+  /* #e8d5c3   */
+  background-color:#f4f4ec;
+  color: #61615e;
   font-family: 'Lato', sans-serif;
 
 }
@@ -17,4 +18,15 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.flexcontainer{
+  display:flex;
+  flex-direction: row;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }

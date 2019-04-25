@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import axios from 'axios'
 import Map from './component/Map/Map'
-
-
+import ListOfOrgs from './component/ListOfOrgs/ListOfOrgs'
 
 class App extends Component {
   constructor(props) {
@@ -11,6 +10,7 @@ class App extends Component {
 
     this.state={
       charities:[]
+
     }
     this.fetchCharityNav = this.fetchCharityNav.bind(this)
   }
@@ -26,7 +26,6 @@ class App extends Component {
 
     axios.get(url)
     .then(response => {
-
       this.setState({
         charities: response.data
       })
@@ -36,10 +35,10 @@ class App extends Component {
   render() {
     // console.log('article example from app js' , this.state.charities[0])
     return (
-      <div>
-        <h1> this is a hate free zone </h1>
-        <Map charities={this.state.charities} />
-
+      <div className="flexcontainer">
+        <h1> .. </h1>
+        <Map className='mapContainer' component={Map} charities={this.state.charities} />
+        <ListOfOrgs className='orgContainer' charities={this.state.charities} />
       </div>
     )
   }

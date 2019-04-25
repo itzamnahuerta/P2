@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
 
-class JournalistInfo extends PureComponent {
+class CharityInfo extends PureComponent {
 
   render() {
     const { info } = this.props.charityName;
-    const displayName = `${info.fullName}`;
+    const displayName = `${info.charityName}`;
 
     return (
       <div>
@@ -14,4 +14,4 @@ class JournalistInfo extends PureComponent {
   }
 }
 
-export default JournalistInfo;
+export default CharityInfo;
