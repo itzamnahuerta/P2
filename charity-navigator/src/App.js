@@ -35,10 +35,12 @@ class App extends Component {
   render() {
     // console.log('article example from app js' , this.state.charities[0])
     return (
-      <div className="flexcontainer">
-        <h1> .. </h1>
-        <Map className='mapContainer' component={Map} charities={this.state.charities} />
-        <ListOfOrgs className='orgContainer' charities={this.state.charities} />
+      <div> 
+        <h1> info</h1>
+        <div className="flexcontainer">
+          <Map className='mapContainer' component={Map} charities={this.state.charities} />
+          <ListOfOrgs className='orgContainer' charities={this.state.charities} />
+        </div>
       </div>
     )
   }

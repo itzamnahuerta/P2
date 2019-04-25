@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './ListOfOrgs.css'
 
 class ListOfOrgs extends Component {
     constructor(props) {

@@ -12,12 +12,12 @@ class Map extends Component {
 
     this.state = {
         viewport: {
-        width: 600,
-        height: 400,
+        width: 800,
+        height: 600,
         latitude: 45.7577,
         longitude: -92.4376,
         zoom: 4,
-        style: 'mapbox://styles/ForMigrants2019'
+        style: 'mapbox://styles/itzamnahuerta/cjuu88tuq45tg1fms37ihw14j'
       },
       popupInfo: null
     }
@@ -85,8 +85,8 @@ class Map extends Component {
         latitude={viewport.latitude}
         longitude={viewport.longitude}
         zoom={viewport.zoom}
-        
-        // map.Style="mapbox://styles/ForMigrants2019"
+    
+        mapStyle="mapbox://styles/itzamnahuerta/cjuu88tuq45tg1fms37ihw14j"
         
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY} >

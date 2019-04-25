@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+
+.orgs-list{
+    font-family: 'Lato', sans-serif;
+    border: 5px solid #bfa592;
+    width: 500px;
+    height: 620px;
+    overflow: scroll;
+
+}
+
+a{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    
+}
