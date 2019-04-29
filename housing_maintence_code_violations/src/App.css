@@ -31,12 +31,12 @@ body{
 }
 .projectDescription{
   position: absolute;
-  top: 26%;
+  top: 28%;
   left: 10%;
   padding: 40px;
   width: 180px;
-  height: 360px;
-  font-size: 10pt;
+  height: 450px;
+  font-size: 11pt;
   border-right: 2px solid #8b0000;
 }
 
@@ -59,7 +59,7 @@ body{
   justify-content: space-between;
 
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 27%;
+  left: 30%;
 
 }

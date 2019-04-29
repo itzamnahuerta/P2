@@ -6,22 +6,20 @@ class ListOfOrgs extends Component {
         super(props);
 
         this.state = {
-            charityName: '',
-            orgs: []
         }
 
     }
 
 
   render() {
-    //   console.log(this.props.charities)
+    //   console.log(this.props.data)
     return (
 
-      <div className='orgs-list'>
-            {this.props.charities.map((charity, index) =>
+      <div className='nychomes-list'>
+            {/* {this.props.charities.map((charity, index) =>
                 <p key={index}> 
                 <a href={charity.charityNavigatorURL}>  {charity.charityName}</a> 
-                </p> 
+                </p>  */}
             
             )} 
       </div>
